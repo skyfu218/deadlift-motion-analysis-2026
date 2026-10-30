@@ -1,0 +1,6 @@
+Deadlift Lab is an independent browser implementation inspired by:
+jeremyipark/vision-demos (Apache License 2.0)
+https://github.com/jeremyipark/vision-demos/tree/main/deadlift
+
+This project does not reproduce VLM Run, SAM 3.1, ViTPose+ Large, or Gemma model output.
+Its browser-side pose estimates are not directly comparable to the original project's results.

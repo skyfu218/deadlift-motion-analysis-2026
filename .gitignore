@@ -1,0 +1,8 @@
+node_modules/
+.pnpm-store/
+dist/
+.firebase/
+firebase-debug.log
+*.local
+.DS_Store
+test-videos/
