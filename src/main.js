@@ -37,7 +37,7 @@ document.querySelector("#app").innerHTML = `
       <div class="data-footer"><span>次數以握槓手腕軌跡估算</span><div><button class="text-button" id="csvButton" disabled>CSV</button><button class="text-button" id="jsonButton" disabled>JSON</button></div></div>
     </aside>
   </main>
-  <footer><section class="sponsor"><img src="/society-brand-reference.png" alt="臺灣運動健康科技學會 Logo"><div><span>資助單位</span><strong>臺灣運動健康科技學會</strong><small>Taiwan Society of Sports and Health Technology</small></div><div class="footer-meta"><span>版本更新｜2026 年 11 月</span><small>單鏡頭影像估算，不作醫療或傷害風險判定</small></div></section></footer>
+  <footer class="site-footer"><section class="sponsor"><div class="society-mark" role="img" aria-label="臺灣運動健康科技學會 Logo"><img src="/society-brand-reference.png" alt=""></div><div class="society-copy"><span>COPYRIGHT © 2026</span><strong>臺灣運動健康科技學會</strong><small>Taiwan Society of Sports and Health Technology</small></div><div class="footer-meta"><span>Deadlift Lab · Web Motion Analysis</span><span>版本更新｜2026 年 11 月</span></div></section></footer>
   <dialog id="guideDialog"><form method="dialog"><button class="dialog-close" aria-label="關閉">×</button><p class="eyebrow">RECORDING GUIDE</p><h2>三件事，讓追蹤更準</h2><div class="guide-grid"><div><b>1</b><strong>正側面固定鏡位</strong><p>鏡頭與槓鈴移動方向垂直，避免斜拍造成深度誤差。</p></div><div><b>2</b><strong>手腕與槓片清楚</strong><p>本版以握槓手腕作為 Bar height 代理，請避免遮擋雙手。</p></div><div><b>3</b><strong>全身留白</strong><p>頭、肩、髖、膝、踝都要入鏡，背景與衣著保持對比。</p></div></div><button class="button primary" value="close">了解</button></form></dialog>
 `;
 
